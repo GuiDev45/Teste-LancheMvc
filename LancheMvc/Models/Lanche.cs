@@ -18,6 +18,7 @@
         //vão ser usados para definir o relacionamento entre Lanche e Categoria
         public int CategoriaId { get; set; }
         //Propriedade de navegação Categora Categoria.
+        //Lembrando que para um método comum possa ser sobreposto/override, deve ser incluído nele o virtual.
         public virtual Categoria Categoria { get; set; }
     }
 }
